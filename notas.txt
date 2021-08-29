@@ -1,3 +1,5 @@
+AVISO! TENER INSTALADO NODE
+
 //Instalar angular 
 npm install -g @angular/cli
 
@@ -8,3 +10,11 @@ ng new crudangular
 
 //Levantar el servidor
 ng serve 
+
+//Instalacion de bootstrap
+npm install bootstrap
+
+//Crear un nuevo componente
+ng g c componentes/agregar-empleado
+ng g c componentes/editar-empleado
+ng g c componentes/listar-empleado
