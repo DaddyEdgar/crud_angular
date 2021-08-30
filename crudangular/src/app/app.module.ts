@@ -7,6 +7,11 @@ import { AgregarEmpleadoComponent } from './componentes/agregar-empleado/agregar
 import { EditarEmpleadoComponent } from './componentes/editar-empleado/editar-empleado.component';
 import { ListarEmpleadoComponent } from './componentes/listar-empleado/listar-empleado.component';
 
+//Importar el form, ya que se va a trabajar
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+//Trabajar con http cliente
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +21,10 @@ import { ListarEmpleadoComponent } from './componentes/listar-empleado/listar-em
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
