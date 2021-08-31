@@ -18,3 +18,7 @@ npm install bootstrap
 ng g c componentes/agregar-empleado
 ng g c componentes/editar-empleado
 ng g c componentes/listar-empleado
+
+//Generar un servicio ayudando a conectar a una api
+ng g s servicio/crud
+
